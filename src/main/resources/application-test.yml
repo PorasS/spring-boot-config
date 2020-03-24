@@ -1,0 +1,12 @@
+my:
+  message: hello i am from test yml
+db:
+  url: http//mysql
+  user: sheetal
+  password: shi@123
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
